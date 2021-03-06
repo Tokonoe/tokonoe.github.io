@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
+
+/* GENERAL */
+
+* {
+	margin: 0;
+	padding: 0;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+
+html, body {height: 100%}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	background-color: #222;
+}
+
+
+/* SPECIFIC */
+
+p {
+	color: #eee;
+	font-size: 100px;
+	font-family: 'Roboto';
+}
+
+a {
+	color: #eee;
+	text-decoration: none;
+}
+a:hover {color: #aaa}
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 350px) {p {font-size: 75px}}

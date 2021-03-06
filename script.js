@@ -1,0 +1,1 @@
+document.getElementsByTagName('link')[2].setAttribute('href', 'pictures/logo_' + Math.floor((Math.random() * 6) + 1) + '.png');

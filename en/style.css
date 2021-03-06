@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+/* GENERAL */
+
+* {
+	margin: 0;
+	padding: 0;
+	user-select: none;
+	font-family: 'Roboto';
+	-webkit-user-drag: none;
+}
+
+html {scroll-behavior: smooth}
+html, body {height: 100%}
+body {background-color: white}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+
+/* SPECIFIC */
+
+#arrow {
+	left: 10px;
+	width: 25px;
+	bottom: 10px;
+	font-size: 0;
+	position: fixed;
+	cursor: pointer;
+}
+
+
+
+#nav {
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	height: 10%;
+	position: fixed;
+	background-color: white;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#nav p {cursor: pointer}
+
+#nav #logo {
+	height: 65%;
+	margin-left: 3vw;
+	filter: drop-shadow(2px 2px 0px #c5c3ee);
+}
+
+#nav div {
+	width: 75%;
+	font-size: 90%;
+	text-align: right;
+}
+
+#nav div p {
+	display: inline;
+	margin-right: 5%;
+}
+
+
+
+#about {
+	height: 90%;
+	font-size: 150%;
+	line-height: 35px;
+	text-align: center;
+	background-color: #d6d4ff;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#about p {max-width: 75%}
+
+
+
+#non_original, #original {margin: 5% 0}
+
+#non_original #title, #original #title {
+	font-size: 25px;
+	margin: 0 0 1% 10%;
+}
+
+#non_original #desc, #original #desc {
+	max-width: 75%;
+	margin-left: 15%;
+}
+
+#non_original_projects, #original_projects {
+	width: 60%;
+	margin: 5% 0 0 20%;
+	text-align: center;
+}
+
+#non_original div div, #original div div {
+	align-items: center;
+	display: inline-flex;
+	justify-content: center;
+
+	margin: 3%;
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+}
+
+#non_original div div a, #original div div a {
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+	color: white;
+	padding: 0 5%;
+	font-weight: bold;
+	font-family: 'Roboto';
+	background-color: rgba(0,0,0,0.4);
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+#contact {
+	width: 100%;
+	height: 90%;
+	display: flex;
+}
+
+#contact #left, #contact #right {
+	width: 50%;
+	height: 100%;
+	text-align: center;
+
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#contact #left {
+	font-size: 60px;
+	font-family: 'Roboto'
+}
+
+#contact #left p {width: 75%}
+#contact #right {background-color: #d6d4ff}
+
+#contact #right img {
+	width: 90px;
+	margin: 70px;
+}
+
+.fb-tw {padding: 0 20px}

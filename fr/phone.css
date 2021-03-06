@@ -1,0 +1,63 @@
+#menu {
+	width: 25px;
+	display: none;
+	margin-right: 5%;
+}
+
+#responsive_menu {
+	right: 0;
+	z-index: 2;
+	padding: 15px;
+	display: none;
+	position: fixed;
+	background-color: white;
+}
+
+@media screen and (orientation: portrait) {
+	#contact {display: initial}
+
+	#contact #left, #contact #right {
+		width: 100%; 
+		height: 90%;
+	}
+
+	#contact #right img {margin: 45px}
+}
+
+@media screen and (max-width: 600px) {
+	#nav div {display: none}
+	#menu {display: block}
+}
+
+@media screen and (max-width: 360px) {
+	#contact #left {font-size: 50px}
+	
+	#non_original div div, #original div div {
+		width: 175px;
+		height: 175px;
+	}
+}
+
+@media screen and (orientation: portrait) and (max-height: 650px) {#contact #right img {margin: 30px}}
+@media screen and (orientation: portrait) and (max-height: 550px) {#contact #right img {margin: 20px}}
+@media screen and (orientation: landscape) and (max-width: 1100px) {#contact #right img {margin: 60px}}
+@media screen and (orientation: landscape) and (max-width: 1000px) {#contact #right img {margin: 50px}}
+
+@media screen and (orientation: landscape) and (max-width: 900px) {
+	#contact #right img {
+		width: 70px;
+		margin: 30px;
+	}
+}
+
+@media screen and (orientation: landscape) and (max-width: 900px) {#contact #left {font-size: 40px}}
+@media screen and (orientation: landscape) and (max-width: 700px) {#contact #right img {width: 60px}}
+
+@media screen and (orientation: landscape) and (max-width: 650px) {
+	#contact #left {font-size: 30px}
+
+	#contact #right img {
+		width: 50px;
+		margin: 20px;
+	}
+}

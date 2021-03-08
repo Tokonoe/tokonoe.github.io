@@ -1,0 +1,112 @@
+/* GENERAL */
+
+@font-face {
+	font-family: StyreneA;
+	src: url(/en/non_original_projects/kimha/en/StyreneA-Light-Web.woff);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: StyreneA;
+	-webkit-user-drag: none;
+} 
+
+html, body {height: 100%}
+
+h1 {font-weight: normal}
+
+a {
+	color: black;
+	text-decoration: none;
+	border-bottom: 1px solid;
+	border-bottom-color: black;
+	transition: border-bottom-color .2s;
+}
+a:hover {border-bottom-color: transparent}
+a:visited {color: black}
+
+p::selection, a::selection, h1::selection, li::selection, br::selection {
+	color: blue;
+	background-color: transparent;
+}
+
+/* SPECIFIC */
+
+nav {
+	top: 0;
+	width: 100%;
+	position: fixed;
+	user-select: none;
+	background-color: white;
+}
+
+nav div div {
+	width: 50%;
+	font-size: 20px;
+	display: inline-block;
+}
+
+nav a {border: none}
+nav img {height: 1rem}
+nav ul {display: inline}
+nav ul li {display: inline}
+#nav-page li:nth-child(1) {margin-right: 100px}
+#nav-lang {float: right}
+#nav-lang li:nth-child(1) {margin-right: 15px}
+
+#nav-menu {
+	border: none;
+	display: none;
+	outline: none;
+	font-size: 18px;
+	background-color: white;
+}
+
+#nav-mobile {
+	z-index: 1;
+	width: 100%;
+	display: none;
+	padding: 0 20px;
+	font-size: 18px;
+	position: fixed;
+	line-height: 60px;
+	list-style-type: none;
+	background-color: white;
+}
+#nav-mobile a {border: none}
+
+
+
+#main-p {
+	text-align: center;
+	padding: 20vh 20px 28vh 20px;
+}
+
+#main-p p {
+	width: 70%;
+	margin: auto;
+	font-size: 2rem;
+	line-height: 2.25rem;
+}
+
+#info-p {
+	width: 100%;
+	margin: auto;
+	padding: 20px;
+	max-width: 1200px;
+	box-sizing: border-box;
+}
+
+#info-p div {
+	width: 50%;
+	padding-right: 20px;
+	line-height: 1.5rem;
+	padding-bottom: 17vh;
+	box-sizing: border-box;
+}
+
+#info-p #left {float: left}
+#info-p #right {float: right}
+#info-p ul {margin-left: 1.5rem}
+#info-p p, #info-p li {font-size: 1.25rem}

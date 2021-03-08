@@ -138,7 +138,7 @@ for(x in NOP) {
 
 	let non_original_project = `
 	<div id="` + NOP[x].id + `" class="project">
-		<a href="non_original/` + NOP[x].id + `/index.html" target="_blank">` + NOP[x].title + `</a>
+		<a href="non_original/` + NOP[x].id + `/" target="_blank">` + NOP[x].title + `</a>
 	</div>
 	`
 
@@ -151,7 +151,7 @@ for(x in OP) {
 
 	let original_project = `
 	<div id="` + OP[x].id + `" class="project">
-		<a href="original/` + OP[x].id + `/index.html" target="_blank">` + OP[x].title + `</a>
+		<a href="original/` + OP[x].id + `/" target="_blank">` + OP[x].title + `</a>
 	</div>
 	`
 	

@@ -1,0 +1,70 @@
+@media screen and (max-width: 1000px) {#nav-page li:nth-child(1) {margin-right: 50px}}
+@media screen and (max-width: 900px) {#nav-page li:nth-child(1) {margin-right: 30px}}
+@media screen and (max-width: 800px) {#nav-page li:nth-child(1) {margin-right: 15px}}
+
+@media screen and (max-width: 700px) {
+	#nav-page, #nav-lang {display: none}
+	#nav-menu {display: block}
+}
+
+@media screen and (min-width: 701px) {#nav-mobile {display: none !important}}
+
+
+
+@media screen and (max-width: 1000px) {#info-p div {padding-bottom: 6vh}}
+@media screen and (max-width: 800px) {#info-p div {padding-bottom: 7vh}}
+
+@media screen and (max-width: 700px) {
+	#main-p p {
+		width: 100%;
+		font-size: 1.5rem;
+		line-height: 1.75rem;
+	}
+
+	#info-p div {
+		width: 100%;
+		line-height: 1.35rem;
+	}
+
+	h1 {font-size: 1.5rem}
+	#info-p #left {padding-bottom: 5vh}
+	#info-p p, #info-p li {font-size: 1.12rem}
+}
+
+@media screen and (max-width: 600px) {#info-p div {padding-bottom: 8vh}}
+
+@media screen and (max-width: 500px) {
+	#info-p div {padding-bottom: 10vh}
+	#info-p #left {padding-bottom: 6vh}
+}
+
+@media screen and (max-width: 450px) {
+	#main-p p {font-size: 1.6rem}
+	#info-p div {padding-bottom: 11vh}
+	#info-p p, #info-p li {font-size: 1.15rem}
+}
+
+@media screen and (max-width: 400px) {
+	h1 {font-size: 1.6rem}
+	#main-p p {font-size: 1.5rem}
+	#info-p div {padding-bottom: 12vh}
+}
+
+@media screen and (max-width: 350px) {#info-p div {padding-bottom: 13vh}}
+@media screen and (max-width: 320px) {#info-p div {padding-bottom: 15vh}}
+
+
+
+@media screen and (max-width: 1000px) and (orientation: landscape) {#info-p div {padding-bottom: 24vh}}
+@media screen and (max-width: 900px) and (orientation: landscape) {#info-p div {padding-bottom: 25vh}}
+@media screen and (max-width: 800px) and (orientation: landscape) {#info-p div {padding-bottom: 29vh}}
+
+@media screen and (max-width: 700px) and (orientation: landscape) {
+	#info-p #left {padding-bottom: 18vh}
+	#info-p div {padding-bottom: 30vh}
+}
+
+@media screen and (max-width: 640px) and (orientation: landscape) {
+	#info-p #left {padding-bottom: 19vh}
+	#info-p div {padding-bottom: 32vh}
+}

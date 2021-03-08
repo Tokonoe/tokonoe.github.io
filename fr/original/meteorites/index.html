@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Météorites</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="phone.css">
+		<link rel="icon" href="pictures/icon.png">
+		<script type="text/javascript" src="script.js" defer></script>
+	</head>
+
+	<body>
+		<div id="game">
+			<div id="ground"></div>
+			<img src="pictures/landscape.png" id="landscape"/>
+		</div>
+		
+		<div id="btn_container">
+			<div id="btn">Jouer</div>
+		</div>
+
+		<p id="score">Score:</p>
+
+		<p id="hearts_instructions">Choisissez votre nombre de vies:<br>(Cela affecte votre rang)</p>
+
+		<div id="hearts_container">
+			<img id="heart_1" src="pictures/heart_full.png">
+			<img id="heart_2" src="pictures/heart_empty.png">
+			<img id="heart_3" src="pictures/heart_empty.png">
+		</div>
+
+		<div id="game_over_screen">
+			<p id="msg">Game Over!</p>
+			<p id="game_over_score"></p>
+			<p id="rank"></p>
+			<p id="best_score"></p>
+			<p id="best_rank"></p>
+			<div id="continue">Continuer</div>
+		</div>
+	</body>
+</html>

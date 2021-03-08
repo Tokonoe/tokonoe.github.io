@@ -1,0 +1,4 @@
+@media screen and (orientation: portrait) and (max-width: 350px) {
+	.sticky .title {font-size: 30px}
+	.sticky .text {font-size: 10px}
+}

@@ -1,0 +1,119 @@
+/* VERTICAL */
+
+@media screen and (max-width: 1100px) and (orientation: portrait) {
+	body {justify-content: center}
+
+	#title {
+		width: 85%;
+		font-size: 250%;
+		margin-bottom: 10%;
+	}
+
+	#list {
+		width: 800px;
+		height: 800px;
+	}
+
+	#list dt {
+		width: 30%;
+		margin: 5px;
+	}
+}
+
+@media screen and (max-width: 800px) and (orientation: portrait) {
+	#title {
+		width: 90%;
+		font-size: 200%;
+	}
+
+	#list {
+		width: 650px;
+		height: 650px;
+	}
+}
+
+@media screen and (max-width: 500px) and (orientation: portrait) {
+	body {
+		overflow-y: scroll;
+		justify-content: flex-start;
+	}
+
+	#title {
+		width: 100%;
+		margin: 30px 0;
+		font-size: 175%;
+		padding: 10px 0;
+		letter-spacing: 10px;
+	}
+
+	#list {
+		width: 60%;
+		height: auto;
+		margin-bottom: 25px;
+	}
+
+	#list dt {
+		width: 100%;
+		margin: 7px 0;
+	}
+}
+
+@media screen and (max-width: 400px) and (orientation: portrait) {#title {font-size: 150%}}
+
+/* HORIZONTAL */
+
+@media screen and (max-width: 1367px) and (min-width: 1364px) and (max-height: 1025px) and (min-height: 1023px) {
+	#title {
+		width: 85%;
+		font-size: 250%;
+		margin: 60px 0;
+	}
+
+	#list {
+		width: 800px;
+		height: 800px;
+	}
+
+	#list dt {
+		width: 30%;
+		margin: 5px;
+	}
+}
+
+@media screen and (max-width: 1100px) and (orientation: landscape) {
+	body {overflow-y: scroll}
+
+	#title {
+		width: 85%;
+		font-size: 200%;
+		margin: 35px 0;
+	}
+
+	#list {
+		width: 600px;
+		height: 600px;
+	}
+
+	#list dt {
+		width: 30%;
+		margin: 5px;
+	}
+}
+
+@media screen and (max-width: 900px) and (orientation: landscape) {
+	#title {
+		width: 100%;
+		font-size: 175%;
+		padding: 10px 0;
+	}
+
+	#list {
+		width: 80%;
+		height: auto;
+		margin-bottom: 25px;
+	}
+}
+
+@media screen and (max-width: 800px) and (orientation: landscape) {#list {width: 85%}}
+@media screen and (max-width: 700px) and (orientation: landscape) {#title {font-size: 150%}}
+@media screen and (max-width: 600px) and (orientation: landscape) {#list dt {margin: 4px}}

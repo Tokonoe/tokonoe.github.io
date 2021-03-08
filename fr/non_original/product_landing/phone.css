@@ -1,0 +1,178 @@
+@media only screen and (max-width: 1100px) and (orientation: portrait) {
+	#nav img {
+		width: 30%;
+		margin-right: 15%;
+	}
+
+	#nav a {margin-left: 10%}
+	#main {margin-top: 7.5%}
+	.good-icon {margin-right: 14px}
+	#features {width: 90%}
+
+	#video_box {
+		width: 100%;
+		overflow: scroll;
+		text-align: center;
+	}
+
+	#video_box::-webkit-scrollbar {display: none}
+	#pricing div {width: 30%;}
+	#pricing-middle {margin: 0 2.5%}
+	footer {width: 98%}
+}
+
+@media only screen and (max-width: 800px) and (orientation: portrait) {
+	#nav img {
+		width: 40%;
+		margin-right: 5%;
+	}
+
+	#nav a {margin-left: 5%}
+	#main {margin-top: 12.5%}
+	.good-icon {margin-right: 11px}
+	#features, #features-middle {margin: 10% 0}
+
+	#pricing {
+		align-items: center;
+		flex-direction: column;
+	}
+
+	#pricing div {width: 40%}
+	#pricing-middle {margin: 2% 0}
+	footer {width: 100%}
+}
+
+@media only screen and (max-width: 500px) and (orientation: portrait) {
+	#nav {
+		padding: 0;
+		flex-direction: column;
+	}
+	#nav img {
+		width: 70%;
+		margin: 2.5% 0;
+	}
+	#nav a {
+		display: block;
+		margin-bottom: 1%;
+		text-align: center;
+	}
+
+	#main {margin-top: 35%}
+	#features {text-align: center}
+	div .icon {display: none !important}
+	#features div div {align-items: center}
+	#features, #features-middle {margin: 20% 0}
+	iframe {width: 100%}
+	#pricing {margin: 10% 0}
+	#pricing div {width: 70%}
+	footer div {padding: 5%}
+	footer a {margin-right: 5%}
+}
+
+@media only screen and (max-width: 400px) and (orientation: portrait) {
+	#nav img {width: 80%}
+	form h1 {text-align: center}
+	#pricing div {width: 80%}
+	#pricing-middle {margin: 3%}
+}
+
+@media only screen and (max-width: 350px) and (orientation: portrait) {
+	#nav img {width: 85%}
+	#main {margin-top: 40%}
+	#pricing div {width: 90%}
+}
+
+/* HORIZONTAL */
+
+@media only screen and (max-width: 1100px) and (orientation: landscape) {
+	#nav img {
+		width: 32.5%;
+		margin-right: 15%;
+	}
+
+	#nav a {margin-left: 10%}
+	#main {margin-top: 7.5%}
+	#features {width: 90%}
+
+	#video_box {
+		width: 100%;
+		overflow: scroll;
+		text-align: center;
+	}
+
+	#video_box::-webkit-scrollbar {display: none;}
+	#pricing div {width: 30%;}
+	#pricing-middle {margin: 0 2.5%}
+	footer {width: 98%}
+}
+
+@media only screen and (max-width: 900px) and (orientation: landscape) {
+	#nav img {
+		width: 40%;
+		margin-right: 0;
+	}
+
+	#nav a {margin-left: 7.5%}
+	#main {margin-top: 10%}
+	.good-icon {margin-right: 11px}
+	footer {width: 100%}
+}
+
+@media only screen and (max-width: 800px) and (orientation: landscape) {
+	#nav a {margin-left: 5%}
+	.good-icon {margin-right: 10px}
+
+	#pricing {
+		align-items: center;
+		flex-direction: column;
+	}
+
+	#pricing div {width: 40%}
+	#pricing-middle {margin: 2% 0}
+}
+
+@media only screen and (max-width: 700px) and (orientation: landscape) {
+	#nav {
+		padding: 0;
+		flex-direction: column;
+	}
+
+	#nav img {
+		width: 45%;
+		margin: 2.5% 0;
+	}
+
+	#nav a {
+		display: block;
+		margin-left: 0;
+		margin-bottom: 1%;
+		text-align: center;
+	}
+
+	.icon {width: 15%}
+	.good-icon {margin-right: 9px}
+	#pricing div {width: 45%}
+}
+
+@media only screen and (max-width: 650px) and (orientation: landscape) {
+	#nav div {
+		width: 50%;
+		text-align: center;
+	}
+
+	#nav a {
+		display: block;
+		margin-bottom: 1.5%;
+	}
+
+	#main {margin-top: 15%}
+	.good-icon {margin-right: 7px}
+}
+
+@media only screen and (max-width: 600px) and (orientation: landscape) {
+	#nav img {width: 55%;}
+	#main {margin-top: 25%}
+	.icon {width: 20%}
+	.good-icon {margin-right: 9px}
+	#pricing div {width: 50%}
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Visionneuse de Markdown</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="phone.css">
+		<link rel="icon" href="icon.png">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script type="text/javascript" src="script.js" defer></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.6/marked.js"></script>
+	</head>
+	<body>
+		<div id='editor-box'>
+			<div class='bar'>
+				<i title="no-stack-dub-sack" class="fa fa-free-code-camp"></i>
+				<p>Éditeur</p>
+
+				<i id="editor-max" class="fa fa-arrows-alt btn"></i>
+				<i id="editor-min" class="fa fa-compress btn"></i>
+			</div>
+
+			<textarea id="editor"></textarea>
+		</div>
+
+		<div id='preview-box'>
+			<div class='bar'>
+				<i title="no-stack-dub-sack" class="fa fa-free-code-camp"></i>
+				<p>Visionneuse</p>
+
+				<i id="preview-max" class="fa fa-arrows-alt btn"></i>
+				<i id="preview-min" class="fa fa-compress btn"></i>
+			</div>
+
+			<div id="preview"></div>
+
+			<a href="https://codepen.io/freeCodeCamp/full/GrZVVO" target="#" id="original">Original</a>
+		</div>
+	</body>
+</html>

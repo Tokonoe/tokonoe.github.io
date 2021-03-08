@@ -1,0 +1,246 @@
+@media screen and (max-height: 350px) {#head{height: 20% !important}}
+
+@media screen and (max-width: 650px) {
+	#footer_1 div {display: block}
+	#footer_1 div {margin: 0}
+	#about-page {margin: 0}
+	#about-page {padding: 10% 0 15% 0}
+	#around-web {margin: 0} 
+	#around-web {padding-bottom: 15%} 
+	#about-page-title {margin-bottom: 5%}
+	#around-web-title {margin-bottom: 10%}
+}
+
+/* VERTICAL */
+
+@media only screen and (max-width: 1100px) and (orientation: portrait) {
+	#head {height: 6%}
+
+	#head-img {
+		margin-left: 4%;
+		width: 5%;
+	} 
+
+	#head ul {margin-left: 58%}
+	#head li {padding: 3% 6%}
+
+	#main {
+		width: 100%;
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 1000px) and (orientation: portrait) {#head ul {margin-left: 50%}}
+@media only screen and (max-width: 850px) and (orientation: portrait) {#head ul {margin-left: 45%}}
+
+@media only screen and (max-width: 800px) and (orientation: portrait) {
+	#head {height: 8%}
+	#head ul {margin-left: 35%}
+
+	#head li {
+		background-color: #e7e7e7;
+		color: #444;
+		margin-right: 3%;
+	}
+
+	.scroll {
+		background-color: transparent;
+		color: transparent;
+	}
+
+	#main {margin-top: 11%}
+	#bio {display: block}
+
+	#bio div {
+		text-align: center;
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	#bio-text-1 {padding-top: 8%}
+	#bio-text-2 {font-size: 145%}
+	#bio hr {margin-left: 9%}
+
+	#bio img {
+		margin: 5% 35% 5% 0;
+		width: 30%;
+	}
+
+	#pictures hr {
+		margin: 4% 0 6% 15%;
+		width: 70%;
+	}
+
+	#pictures img {
+		width: 80%;
+		margin: 0 0 5% 10%;
+	}
+
+	#contact div {
+		display: block;
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	#contact hr {
+		width: 70%;
+		margin-left: 15%;
+	}
+
+	.input-text {margin-bottom: 3%}
+	#input-message {padding-bottom: 30%}
+	#input-btn {margin-bottom: 5%}
+	#contact-text-two {margin-top: 5%}
+	#contact-text-three {padding-bottom: 5%}
+	#footer_2 p {padding: 4% 0}
+}
+
+@media only screen and (max-width: 750px) and (orientation: portrait) {#head ul {margin-left: 30%}}
+@media only screen and (max-width: 700px) and (orientation: portrait) {#head ul {margin-left: 25%}}
+@media only screen and (max-width: 650px) and (orientation: portrait) {#head ul {margin-left: 20%}}
+@media only screen and (max-width: 600px) and (orientation: portrait) {#head ul {margin-left: 15%}}
+@media only screen and (max-width: 550px) and (orientation: portrait) {#head li {padding: 2% 3%}}
+
+@media only screen and (max-width: 450px) and (orientation: portrait) {
+	#head {height: 10%}
+
+	#head ul {
+		width: 90%;
+		font-size: 90%;
+	}
+
+	#main {margin-top: 18%}
+	#bio-text-1 {padding-top: 15%}
+
+	#bio hr {
+		width: 95%;
+		margin: 10% 0 10% 2.5%;
+	}
+
+	#bio img {
+		width: 60%;
+		margin: 10% 20% 10% 0;
+	}
+
+	#pictures p {padding: 10% 0 5% 0}
+
+	#pictures hr {
+		width: 95%;
+		margin: 5% 0 10% 2%;
+	}
+
+	#pictures img {margin-bottom: 10%}
+	#contact-title {padding: 10% 0 5% 0}
+
+	#contact hr {
+		width: 95%;
+		margin: 5% 0 10% 2%;
+	}
+
+	.input-text {margin-bottom: 5%}
+	#input-message {padding-bottom: 50%}
+	#contact-text-three {padding-bottom: 10%}
+	#footer_2 p {padding: 6% 0}
+}
+
+@media only screen and (max-width: 400px) and (orientation: portrait) {#head li {font-size: 90%}}
+@media only screen and (max-width: 370px) and (orientation: portrait) {#head li {font-size: 85%}}
+@media only screen and (max-width: 350px) and (orientation: portrait) {#head li {font-size: 75%}}
+
+/* HORIZONTAL */
+
+@media only screen and (max-width: 1370px) and (min-width: 1360px) and (max-height: 1030px) and (min-height: 1020px) and (orientation: landscape) {#head {height: 8%}}
+
+@media only screen and (max-width: 1100px) and (orientation: landscape) {
+	#head-img {margin-left: 5%}
+	#head ul {margin-left: 50%}
+
+	#head li {
+		background-color: #e7e7e7;
+		color: #444;
+		margin-right: 3%;
+		padding: 3% 6%;
+	}
+
+	.scroll {
+		background-color: transparent;
+		color: transparent;
+	}
+
+	#main {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	#pictures hr {margin-bottom: 5%}
+	#pictures img {margin-bottom: 5%}
+}
+
+@media only screen and (max-width: 1000px) and (orientation: landscape) {
+	#head ul {margin-left: 45%}
+}
+
+@media only screen and (max-width: 900px) and (orientation: landscape) {
+	#head ul {margin-left: 40%}
+}
+
+@media only screen and (max-width: 850px) and (orientation: landscape) {
+	#head {height: 16%}
+	#main {margin-top: 8%}
+	#bio {display: block}
+
+	#bio div {
+		text-align: center;
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	#bio-text-1 {padding-top: 8%}
+	#bio-text-2 {font-size: 145%}
+	#bio hr {margin-left: 9%}
+
+	#bio img {
+		margin: 5% 35% 5% 0;
+		width: 30%;
+	}
+
+	#pictures hr {
+		margin: 4% 0 6% 15%;
+		width: 70%;
+	}
+
+	#pictures img {
+		width: 80%;
+		margin: 0 0 5% 10%;
+	}
+
+	#contact div {
+		display: block;
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	#contact hr {
+		width: 60%;
+		margin-left: 20%;
+	}
+
+	.input-text {margin-bottom: 3%}
+	#input-message {padding-bottom: 30%}
+	#input-btn {margin-bottom: 5%}
+	#contact-text-two {margin-top: 5%}
+	#contact-text-three {padding-bottom: 5%;}
+}
+
+@media only screen and (max-width: 800px) and (orientation: landscape) {
+	#head ul {margin-left: 35%}
+}
+
+@media only screen and (max-width: 750px) and (orientation: landscape) {#head ul {margin-left: 30%}}
+@media only screen and (max-width: 700px) and (orientation: landscape) {#head ul {margin-left: 25%}}
+@media only screen and (max-width: 650px) and (orientation: landscape) {#head ul {margin-left: 20%}}
+@media only screen and (max-width: 600px) and (orientation: landscape) {#head ul {margin-left: 15%}}
+@media only screen and (max-width: 550px) and (orientation: landscape) {#head li {font-size: 90%}}
+@media only screen and (max-width: 500px) and (orientation: landscape) {#head li {font-size: 80%}}
+@media only screen and (max-width: 450px) and (orientation: landscape) {#head li {font-size: 70%}}
+@media only screen and (max-width: 400px) and (orientation: landscape) {#head li {padding: 2% 3%}}

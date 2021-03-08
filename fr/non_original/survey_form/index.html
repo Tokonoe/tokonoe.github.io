@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Formulaire de Sondage</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="phone.css">
+		<link rel="icon" href="icon.png">
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	</head>
+
+	<body>
+		<h1>Formulaire de Sondage</h1>
+
+		<div id="main">
+			<p>Faites nous savoir comment nous pouvons améliorer freeCodeCamp</p>
+
+			<form>
+
+				<!-- NAME -->
+				<div id="name">
+					<label for="name" class="labels">* Prénom:</label>
+					<input type="text" name="name" placeholder="Entrez votre prénom" required autofocus>
+				</div>
+
+				<!-- EMAIL -->
+				<div id="email">
+					<label for="email" class="labels">* Email:</label>
+					<input type="email" name="email" placeholder="Entrez votre Email" required>
+				</div>
+
+				<!-- AGE -->
+				<div id="age">
+					<label for="age" class="labels">* Âge:</label>
+					<input type="number" name="age" placeholder="Âge" required>
+				</div>
+
+				<!-- ROLE -->
+				<div id="role">
+					<label class="labels">Quelle option décrit le mieux votre situation actuelle?</label>
+
+					<select>				
+          				<option disabled>Sélectionnez une option</option>
+        					<option value="student">Étudiant</option>
+						<option value="job">Travail à plein temps</option>
+						<option value="learner">Apprenant à plein temps</option>
+        					<option value="not_say">Ne se prononce pas</option>
+						<option value="other">Autre</option>
+        				</select>
+				</div>
+
+				<!-- RECOMMEND -->
+				<div id="recommend">
+					<label class="labels">* Quelle est la probabilité que vous recommandiez freeCodeCamp à un·e ami·e?</label>
+
+					<dl>
+						<dt>
+							<input type="radio" name="recommend" value="definitly" required>
+							<label for="recommend">Certaine</label>
+						</dt>
+
+						<dt>
+							<input type="radio" name="recommend" value="maybe" required>
+							<label for="recommend">Peut-être</label>
+						</dt>
+
+						<dt>
+							<input type="radio" name="recommend" value="not_sure" required>
+							<label for="recommend">Incertaine</label>
+						</dt>
+					</dl>
+				</div>
+
+				<!-- LIKE -->
+				<div id="like">
+					<label class="labels">Qu'est-ce que vous aimez le plus dans FCC:</label>
+
+					<select>				
+          				<option disabled selected>Sélectionnez une option</option>
+        					<option value="challenges">Challenges</option>
+						<option value="projects">Projets</option>
+						<option value="community">Communauté</option>
+        					<option value="open_source">Open Source</option>
+        				</select>
+				</div>
+
+				<!-- IMPROVEMENT -->
+				<div id="improvement">
+					<label class="labels">Quelles sont les choses qui devraient être améliorées (Cochez toutes les réponses pertinentes):</label>
+
+					<dl>
+						<dt>
+							<input type="checkbox" name="checkbox" value="front">
+							<label for="checkbox">Projets Front-end</label>
+						</dt>
+
+						<dt>
+							<input type="checkbox" name="checkbox" value="back">
+							<label for="checkbox">Projets Back-end</label>
+						</dt>
+
+						<dt>
+							<input type="checkbox" name="checkbox" value="data">
+							<label for="checkbox">Visualisation de Données</label>
+						</dt>
+
+						<dt>
+							<input type="checkbox" name="checkbox" value="challenges">
+							<label for="checkbox">Challenges</label>
+						</dt>
+
+						<dt>
+							<input type="checkbox" name="checkbox" value="open_source">
+							<label for="checkbox">Communité Open Source</label>
+						</dt>
+
+						<dt>
+							<input type="checkbox" name="checkbox" value="gitter">
+							<label for="checkbox">Salons d'aide sur Gitter</label>
+						</dt>
+
+						<dt>
+							<input type="checkbox" name="checkbox" value="videos">
+							<label for="checkbox">Vidéos</label>
+						</dt>
+
+						<dt>
+							<input type="checkbox" name="checkbox" value="meetups">
+							<label for="checkbox">Rencontres en ville</label>
+						</dt>
+
+						<dt>
+							<input type="checkbox" name="checkbox" value="wiki">
+							<label for="checkbox">Wiki</label>
+						</dt>
+
+						<dt>
+							<input type="checkbox" name="checkbox" value="forum">
+							<label for="checkbox">Forum</label>
+						</dt>
+
+						<dt>
+							<input type="checkbox" name="checkbox" value="add_courses">
+							<label for="checkbox">Cours Supplémentaires</label>
+						</dt>
+					</dl>
+				</div>
+
+				<!-- COMMENT -->
+				<div id="comment">
+					<label class="labels">Des Commentaires ou des Suggestions?</label>
+					<textarea placeholder="Entrez votre commentaire ici..."></textarea>
+				</div>
+
+				<!-- SUBMIT -->
+				<div id="submit_box">
+					<input type="submit" name="submit" value="Envoyer" id="submit">
+				</div>
+				
+			</form>
+		</div>
+
+		<a href="https://codepen.io/freeCodeCamp/full/VPaoNP" target="#" id="original">Original</a>
+
+	</body>
+</html>

@@ -1,0 +1,123 @@
+/* global css */
+
+@import url("https://fonts.googleapis.com/css?family=Russo+One");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {height: 100%}
+
+body {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-color: #87b5b5;
+}
+
+/* specific css */
+
+#editor-box {width: 45%}
+
+#editor-box, #preview-box {
+	margin-top: 1.5%;
+	background-color: #c0d8d8;
+	border: 1px solid #1d2f2f;
+	box-shadow: 1px 1px 10px 2px #3a5f5f;
+}
+
+.max {width: 97% !important}
+.maxbis {min-height: 88vh !important}
+
+.bar {
+	padding: 4px 7px 3px 7px;
+	position: relative;
+	font-family: Russo One;
+	background-color: #4aa3a3;
+	border-bottom: 1px solid #1d2f2f;
+     box-shadow: 1px 1px 10px 2px #3a5f5f;
+}
+
+i,p {display: inline}
+
+.btn {float: right}
+
+.btn:hover {
+	cursor: pointer;
+	color: #57e2b1;
+}
+
+#editor-min, #preview-min {display: none}
+
+#editor {
+	padding: 1%;
+	width: 100%;
+	border: none;
+	outline: none;
+	display: block;
+	resize: vertical;
+	min-height: 13rem;
+	box-sizing: border-box;
+	background-color: #c0d8d8;
+}
+
+#preview-box {
+	width: 60%;
+	margin-bottom: 1.5%;
+}
+
+#preview {
+	min-height: 11rem;
+	padding: 10px 20px 0 10px;
+	background-color: #c0d8d8;
+}
+
+/* marked css */
+
+#preview * {margin-bottom: 17px}
+
+#preview h1 {border-bottom: 2px solid #224B4B}
+#preview h2 {border-bottom: 1px solid #224B4B}
+
+#preview p {
+	display: block;
+	white-space: pre-line;
+}
+
+#preview code, #preview pre {
+	font-weight: bold;
+	background-color: white;
+}
+
+#preview code {padding: .2% .5%}
+#preview pre {padding: .8%}
+
+#preview pre code {background-color: transparent}
+
+#preview blockquote {
+	color: #224B4B;
+	margin-left: 25px;
+	padding-left: 5px;
+	border-left: 3px solid #224B4B;
+}
+
+#preview table {border-collapse: collapse}
+
+#preview td, #preview th {
+	padding: 1px 5px;
+	border: 2px solid #224B4B;
+}
+
+#preview ul {padding-left: 40px}
+#preview ol {padding-left: 40px}
+#preview ol li {margin-bottom: 0}
+
+#original {
+	right: 10px;
+	bottom: 5px;
+	color: black;
+	position: fixed;
+	font-size: 14px;
+	text-decoration: none;
+}

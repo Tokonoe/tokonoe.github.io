@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Boîte à Recette</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="phone.css">
+		<link rel="icon" href="icon.png">
+		<script type="text/javascript" src="script.js" defer></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+	</head>
+
+	<body>
+
+		<div id="main">
+			<div id="recipe_list"></div>
+			<button id="add_recipe">Ajouter une Recette</button>
+		</div>
+
+		<!-- ADD/EDIT RECIPE BOX -->
+		<div id="add_recipe_box">
+			<div id="shadow"></div>
+			<div id="add_recipe_menu">
+
+				<button id="cross">×</button>
+				<p id="title">Ajouter une Recette</p>
+
+				<div id="recipe_data">
+					<p>Recette</p>
+					<textarea id="recipe_name" placeholder="Nom de la recette"></textarea>
+
+					<p id="ings_label">Ingrédients</p>
+					<textarea id="ingredients" placeholder="Entrer Les Ingrédients,Séparer,Par Des Virgules"></textarea>
+				</div>
+
+				<button id="close">Annuler</button>
+				<button id="confirm_recipe">Ajouter la Recette</button>
+
+			</div>
+		</div>
+
+		<p id="credits">Design par <a href="https://www.freecodecamp.org/" target="#">freeCodeCamp</a></p>
+
+	</body>
+</html>

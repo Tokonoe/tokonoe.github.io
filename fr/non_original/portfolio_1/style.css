@@ -1,0 +1,289 @@
+* {
+	margin: 0;
+	padding: 0;
+	user-select: none;
+}
+
+html, body {height: 100%}
+
+body {
+	background-color: #888;
+	font-family: Helvetica;
+}
+
+#anchor {
+	top: 0;
+	position: absolute;
+}
+
+/* HEAD */
+
+#head {
+	top: 0;
+	width: 100%;
+	height: 12%;
+	display: flex;
+	font-size: 90%;
+	position: fixed;
+	user-select: none;
+	align-items: center;
+	background-color: #722872;
+	border-bottom: 1px solid #592059;
+	box-shadow: 0 3px 2px rgba(50, 50, 50, 0.2);
+}
+
+#head a {
+	color: #6b6b6b;
+	text-decoration: none;
+}
+
+#head-img {
+	width: 3.25%;
+	cursor: pointer;
+	margin-left: 13%;
+}
+
+#head img {width: 200%}
+
+#head ul {
+	width: 80%;
+	margin-left: 47%;
+}
+
+#head li {
+	cursor: pointer;
+	padding: 2.5% 5%;
+}
+
+#head li:hover {
+	color: #333;
+	box-shadow: 0 3px 3px rgba(50, 50, 50, 0.2);
+}
+
+.scroll {
+	color: #444;
+	background-color: #e7e7e7;
+}
+
+#head img, #head ul, #head ul li {display: inline-block;}
+
+/* MAIN */
+
+#main {
+	width: 76%;
+	margin-top: 6%;
+	margin-left: 12%;
+	background-color: #eee;
+}
+
+#main > * {
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* BIO */
+
+#bio {
+	color: white;
+	display: flex;
+	text-align: right;
+	align-items: center;
+	background-color: #aaa;
+}
+
+#bio hr {
+	width: 82%;
+	margin: 0 0 5% 17%;
+	border: 3px solid white;
+}
+
+#bio div {
+	width: 60%;
+	line-height: 175%;
+	margin: 2% 5% 0 5%;
+}
+
+#bio-text-1 {
+	font-size: 125%;
+	margin-bottom: 5%;
+}
+
+#bio-text-2 {font-size: 140%}
+
+#bio img {
+	width: 25%;
+	margin: 5% 0;
+	border-radius: 100%;
+}
+
+/* PICTURES */
+
+#pictures p {
+	color: #888;
+	font-size: 200%;
+	padding-top: 5%;
+	font-weight: bold;
+	text-align: center;
+}
+
+#pictures hr {
+	width: 50%;
+	margin: 4% 0 4% 25%;
+	border: 3px solid #888;
+}
+
+#pictures img {
+	width: 40%;
+	margin: 0 0 3% 6.5%;
+	vertical-align: top;
+}
+
+/* CONTACT */
+
+#contact-title {
+	color: #888;
+	font-size: 200%;
+	padding-top: 5%;
+	font-weight: bold;
+	text-align: center;
+}
+
+#contact hr {
+	width: 50%;
+	margin: 4% 0 4% 25%;
+	border: 3px solid #888;
+}
+
+#contact div {
+	color: #666;
+	vertical-align: top;
+	display: inline-block;
+}
+
+#contact-input {
+	width: 40%;
+	margin: 0 8% 4% 7%;
+}
+
+#contact-input p {
+	opacity: 0;
+	color: #aaa;
+	transition: .3s;
+	font-weight: bold;
+	margin-bottom: 2%;
+}
+
+.input-text {
+	width: 100%;
+	color: #666;
+	border: none;
+	outline: none;
+	display: block;
+	font-size: 190%;
+	margin-bottom: 5%;
+	padding-bottom: 3%;
+	background-color: #eee;
+	border-bottom: 1px solid #bbb;
+}
+
+#input-message {padding-bottom: 45%;}
+
+#input-btn {
+	color: #666;
+	cursor: pointer;
+	font-size: 125%;
+	padding: 1% 1.5% 0.5% 1.5%;
+}
+
+#contact-text {
+	width: 37%;
+	font-size: 125%;
+	padding-top: 25px;
+	line-height: 140%;
+}
+
+#contact-text-three {padding-bottom: 40px}
+
+/* FOOTER 1 */
+
+#footer_1 {
+	width: 100%;
+	color: white;
+	text-align: center;
+	background-color: #aaa;
+	box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+#footer_1 div {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+#footer_1 div, #around-web li {
+	vertical-align: top;
+	display: inline-block;
+}
+
+#about-page {margin-right: 10%}
+
+#about-page-title, #around-web-title {
+	font-size: 150%;
+	font-weight: bold;
+	margin-bottom: 10%;
+}
+
+#about-page-text {
+	font-size: 125%;
+	line-height: 25px;
+	text-align: center;
+}
+
+#about-page-text a {
+	color: #722872;
+	text-decoration: none;
+}
+
+#about-page-text a:hover {border-bottom: 2px solid #722872}
+
+#around-web {
+	margin-left: 10%;
+	text-align: center;
+}
+
+#around-web-title {margin-bottom: 20%}
+#around-web li {margin: 0 1px}
+
+#around-web a {
+	color: white;
+	padding: 15px;
+	transition: 0.5s;
+	border-radius: 100%;
+	border: 2px solid white;
+}
+
+#around-web a:hover {
+	color: #722872;
+	transition: 0.5s;
+	background-color: white;
+}
+
+#around-web i {font-size: 120%;}
+
+/* FOOTER 2 */
+
+#footer_2 {
+	width: 100%;
+	color: white;
+	font-size: 125%;
+	text-align: center;
+	background-color: #722872;
+}
+
+#footer_2 p {padding: 2% 0}
+
+#credits {
+	right: 10px;
+	bottom: 5px;
+	color: white;
+	position: fixed;
+	font-size: 11px;
+}

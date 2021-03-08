@@ -1,0 +1,41 @@
+/* GENERAL */
+
+* {
+	margin: 0;
+	padding: 0;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+
+html, body {height: 100%}
+body {touch-action: none}
+body {background-color: #222}
+
+
+/* SPECIFIC */
+
+#container {
+	width: 100%;
+	height: 100%;
+	font-size: 0;
+	overflow: hidden;
+  	white-space: nowrap;
+}
+
+#margin {
+	height: 100%;
+	transition: .5s;
+	display: inline;
+}
+
+.color {
+	width: 100%;
+	height: 100%;
+	transition: .5s;
+	display: inline-block;
+}
+
+#red {background: url('pictures/red.jpg') center/cover no-repeat}
+#blue {background: url('pictures/blue.jpg') center/cover no-repeat}
+#yellow {background: url('pictures/yellow.jpg') center/cover no-repeat}
+#green {background: url('pictures/green.jpg') center/cover no-repeat}

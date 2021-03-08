@@ -1,0 +1,5 @@
+@media screen and (max-width: 800px) {div {width: 1000px}}
+@media screen and (max-width: 400px) {div {width: 500px}}
+
+@media screen and (max-width: 800px) {img {width: 175px}}
+@media screen and (max-width: 400px) {img {font-size: 100px}}

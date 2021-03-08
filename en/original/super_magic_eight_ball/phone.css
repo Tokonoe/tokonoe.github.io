@@ -1,0 +1,58 @@
+/* VERTICAL */
+
+@media only screen and (max-width: 1100px) and (orientation: portrait) {
+	#question_box {margin-bottom: 5%}
+	#question {width: 60%}
+}
+
+@media only screen and (max-width: 800px) and (orientation: portrait) {
+	#answer_box {width: 85%}
+	img {width: 100%}
+	#answer {width: 15%}
+}
+
+@media only screen and (max-width: 500px) and (orientation: portrait) {
+	#question, #submit {font-size: 80%}
+	#answer_box {width: auto}
+	img {width: 90%}
+
+	#answer {
+		width: 20%;
+		font-size: 80%;
+		margin-top: -11px;
+	}
+}
+
+@media only screen and (max-width: 400px) and (orientation: portrait) {
+	#question {width: 65%}
+	#answer {width: 19%}
+}
+
+@media only screen and (max-width: 370px) and (orientation: portrait) {#answer {font-size: 75%}}
+@media only screen and (max-width: 350px) and (orientation: portrait) {#answer, #question {font-size: 70%}}
+
+/* HORIZONTAL */
+
+@media only screen and (max-width: 1100px) and (orientation: landscape) {
+	#question {width: 50%}
+	#answer {width: 15%}
+}
+
+@media only screen and (max-width: 900px) and (orientation: landscape) {
+	html, body {height: auto}
+	#question_box {margin-top: 2%}
+	#question {width: 60%}
+}
+
+@media only screen and (max-width: 800px) and (orientation: landscape) {#answer {font-size: 110%}}
+
+@media only screen and (max-width: 700px) and (orientation: landscape) {
+	#question {font-size: 120%}
+	#answer {font-size: 100%}
+}
+
+@media only screen and (max-width: 700px) and (orientation: landscape) {
+	#question {font-size: 110%}
+	img {width: 90%}
+	#answer {width: 17%}
+}

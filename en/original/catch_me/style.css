@@ -1,0 +1,34 @@
+/* GENERAL */
+
+* {
+	margin: 0;
+	padding: 0;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+
+html, body {height: 100%}
+body {overflow: hidden}
+body {background-color: #91CCEC}
+
+/* SPECIFIC */
+
+#circle {
+	width: 10%;
+	font-size: 0;
+	display: block;
+	position: absolute;
+	border-radius: 100%;
+	background: url('emoji.png') center/cover no-repeat;
+}
+
+#circle div {
+	width: 33.333%;
+	height: 33.333%;
+	display: inline-block;
+}
+
+#tl {border-top-left-radius: 100%}
+#tr {border-top-right-radius: 100%}
+#bl {border-bottom-left-radius: 100%}
+#br {border-bottom-right-radius: 100%}

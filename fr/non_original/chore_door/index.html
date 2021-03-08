@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>La Porte des Corvées</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="phone.css">
+		<link rel="icon" href="pictures/icon.png">
+		<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="script_33pct.js" defer></script>
+	</head>
+
+	<body>
+		<!-- HEADER -->
+		<header>
+			<img src="pictures/logo.png">
+		</header>
+
+		<!-- TITLE -->
+		<div class="inline" id="title_box">
+			<p id="title">Instructions</p>
+		</div>
+
+		<!-- INSTRUCTIONS -->
+		<ol>
+			<li><span id="span_1">1</span>Derrière l'une de ses portes se cache le Robot des Corvées.</li>
+			<li><span>2</span>Ta mission est d'ouvrir toutes les portes sans rencontrer le Robot des Corvées.</li>
+			<li><span>3</span>Si tu réussis à éviter le Robot des Corvées jusqu'à la dernière porte, tu gagnes!</li>
+			<li><span>4</span>Essayes de faire une série de victoires!</li>
+		</ol>
+
+		<!-- DOORS -->
+		<div class="inline">
+			<img src="pictures/closed_door.png" class="door" id="door_1">
+			<img src="pictures/closed_door.png" class="door" id="door_2">
+			<img src="pictures/closed_door.png" class="door" id="door_3">
+		</div>
+
+		<!-- BUTTON -->
+		<div id='btn'>Bonne chance!</div>
+
+		<!-- STREAKS -->
+		<div id="streaks">
+			<div>
+				<p>Série de victoires actuelle:</p>
+				<div id="current_streak_display">0</div>
+			</div>
+			<div>
+				<p>Meilleure série de victoires:</p>
+				<div id="best_streak_display">0</div>
+			</div>
+		</div>
+
+		<a href="https://www.codecademy.com/learn/build-interactive-websites" target="#" id="credits">Crédits</a>
+
+	</body>
+</html>

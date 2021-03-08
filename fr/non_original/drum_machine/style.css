@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css?family=Russo+One");
+
+/* GENERAL */
+
+* {
+	margin: 0;
+	padding: 0;
+	user-select: none;
+	font-family: Russo One;
+	-webkit-user-drag: none;
+}
+
+html, body {height: 100%}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #8d8d8d;
+}
+
+
+/* SPECIFIC */
+
+#main { 
+	width: 660px;
+	font-size: 0;
+	position: relative;
+	border: 5px solid orange;
+	background-color: #b3b3b3;
+	padding: 25px 0 25px 25px;
+}
+
+#main #btns, #main #ctrl {
+	width: 50%;
+	display: inline-block;
+}
+
+#btns button {
+	margin: 5px;
+	width: 100px;
+	height: 80px;
+	border: none;
+	outline: none;
+	font-size: 15px;
+	border-radius: 5px;
+	background-color: gray;
+	box-shadow: black 3px 3px 5px;
+}
+
+#logo {
+	top: 5px;
+	right: 10px;
+	position: absolute;
+	font-size: initial;
+}
+
+#logo p {font: italic bold 20px Russo One}
+#logo p, #logo i {display: inline-block}
+
+#logo i {
+	font-size: 23px;
+	font-style: italic;
+	-webkit-text-stroke: .7px black;
+}
+
+#ctrl {
+	text-align: center;
+	font-size: initial;
+}
+
+#power, #bank {
+	width: 45px;
+	height: 18px;
+	font-size: 0;
+	text-align: initial;
+	display: inline-block;
+	background-color: black;
+	border: 3px solid black;
+}
+
+#on, #off, #bank_1, #bank_2 {
+	width: 50%;
+	height: 100%;
+	display: inline-block;
+}
+
+#display {
+	width: 200px;
+	margin: 15px 0;
+	padding: 15px 0;
+	display: inline-block;
+	background-color: gray;
+}
+
+#volume {
+	height: 3px;
+	width: 250px;
+	outline: none;
+	margin-bottom: 20px;
+	border: 1px solid black;
+	-webkit-appearance: none;
+	background-color: #424242; 
+	box-shadow: 2px 2px 2px #222, 0 0 2px #2f2f2f;
+}
+#volume:hover{cursor: pointer}
+
+#volume::-webkit-slider-thumb {
+	width: 8px;
+	height: 25px;
+	background-color: blue;
+	-webkit-appearance: none;
+	box-shadow: 1px 1px 1px #111, 0 0 1px #1e1e1e;
+}
+
+#bank_1 {background-color: blue}
+
+#original {
+	right: 5px;
+	bottom: 5px;
+	color: black;
+	font-size: 13px;
+	position: fixed;
+	text-decoration: none;
+}

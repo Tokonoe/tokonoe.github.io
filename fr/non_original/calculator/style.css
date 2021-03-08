@@ -1,0 +1,99 @@
+@import "https://fonts.googleapis.com/css?family=Share+Tech+Mono";
+@font-face {
+	font-family: digital;
+	src: url('digital-7-mono.ttf');
+}
+
+* {
+	user-select: none;
+	margin: 0;
+	padding: 0;
+}
+
+html, body {height: 100%}
+body {background-color: #c2c2d6;}
+
+body, #main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#main {
+	background-color: black;
+	border: 2px solid #47476b;
+	width: 25%;
+	height: 60%;
+}
+
+#screen {
+	width: 97%;
+	height: 11%;
+	margin: 1.5%;
+}
+
+#full {
+	color: orange;
+	font-size: 125%;
+	height: 42%;
+}
+
+#full, #single {
+	font-family: digital;
+	width: 100%;
+	text-align: right !important;
+}
+
+#single {
+	color: white;
+	font-size: 180%;
+	margin-top: 1%;
+}
+
+table {
+	width: 98%;
+	height: 85%;
+	margin: 1%;
+}
+
+td {
+	color: white;
+	background-color: #4d4d4d;
+	text-align: center;
+	font-size: 115%;
+}
+
+td:hover {
+	color: black;
+	background-color: #5e5e5e;
+}
+
+#reset {background-color: rgb(172, 57, 57)}
+#reset:hover {background-color: rgb(182, 67, 67)}
+.operator {background-color: rgb(102, 102, 102)}
+.operator:hover {background-color: rgb(112, 112, 112)}
+#equal {background-color: rgb(0, 68, 102)}
+#equal:hover {background-color: rgb(10, 68, 112)}
+td, #author {font-family: Share Tech Mono}
+
+#author {
+	text-align: center;
+	margin-top: 1%;
+	line-height: 135%;
+}
+
+#author a {
+	text-decoration: none;
+	color: #00264d;
+	cursor: pointer;
+}
+
+#original {
+	right: 10px;
+	bottom: 5px;
+	color: black;
+	position: fixed;
+	font-size: 13px;
+	text-decoration: none;
+}

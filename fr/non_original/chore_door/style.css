@@ -1,0 +1,115 @@
+/* GENERAL */
+
+* {
+	margin: 0;
+	padding: 0;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+
+html, body {height: 100%}
+
+body {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: 'Work Sans';
+	background-color: #010165;
+
+}
+
+.inline * {display: inline}
+
+/* SPECIFIC */
+
+	/* header */
+
+header {
+	width: 100%;
+	background-color: #00ffff;
+}
+
+#title_box {margin: 45px 0 40px 0}
+
+#title {
+	color: #00ffff;
+	font-size: 18px;
+}
+
+	/* instructions */
+
+ol {
+	width: 28%;
+	list-style: none;
+}
+
+ol li {
+	color: white;
+	font-size: 14px;
+	text-align: left;
+	margin-bottom: 10px;
+
+	display: flex;
+	align-items: center;
+}
+
+ol li span {
+	color: #00ffff;
+	font-size: 35px;
+	margin-right: 35px;
+}
+
+#span_1 {margin-right: 40px}
+
+	/* doors */
+
+.door {
+	margin: 0 10px;
+	cursor: pointer;
+}
+
+	/* button */
+
+#btn {
+	color: #010165;
+	margin: 10px 0;
+	cursor: pointer;
+	font-size: 18px;
+	padding: 20px 15px;
+	background-color: #eb6536;
+}
+
+	/* score */
+
+#streaks {margin-bottom: 30px}
+
+#streaks div {
+	margin: 0 10px;
+	display: inline-block;
+}
+
+#streaks div p {
+	color: white;
+	font-size: 13px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+#streaks div div {
+	width: 70px;
+	height: 70px;
+	font-size: 45px;
+	font-weight: bold;
+	line-height: 70px;
+	background-color: #00ffff;
+}
+
+#credits {
+	right: 10px;
+	bottom: 5px;
+	color: white;
+	position: fixed;
+	font-size: 12px;
+	text-decoration: none;
+}

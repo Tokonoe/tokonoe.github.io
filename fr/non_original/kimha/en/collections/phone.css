@@ -1,0 +1,22 @@
+@media screen and (max-width: 1000px) {#nav-page li:nth-child(1) {margin-right: 50px}}
+@media screen and (max-width: 900px) {#nav-page li:nth-child(1) {margin-right: 30px}}
+@media screen and (max-width: 800px) {#nav-page li:nth-child(1) {margin-right: 18px}}
+
+@media screen and (max-width: 700px) {
+	#nav-page, #nav-lang {display: none}
+	#nav-menu {display: block}
+}
+
+@media screen and (min-width: 701px) {#nav-mobile {display: none !important}}
+
+
+
+@media screen and (max-width: 700px) {
+	.box {display: block}
+
+	.box p {
+		color: black;
+		padding: 20px;
+		font-size: 1.5rem;
+	}
+}

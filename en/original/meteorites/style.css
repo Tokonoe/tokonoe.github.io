@@ -1,0 +1,144 @@
+/* GENERAL */
+
+* {
+	margin: 0;
+	padding: 0;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+
+html, body {height: 100%}
+
+body {overflow: hidden}
+body {background: linear-gradient(0deg, rgba(0,167,231,1) 0%, rgba(0,70,153,1) 100%)}
+
+/* SPECIFIC */
+
+#ground {
+	bottom: 0;
+	width: 100%;
+	position: absolute;
+	background-color: #00aa00;
+}
+
+.meteor {
+	top: -100px;
+	cursor: pointer;
+	position: absolute;
+	border-radius: 100%;
+	background-color: orange;
+	box-shadow: 0 0 50px 5px yellow;
+}
+
+.small {
+	width: 80px;
+	height: 80px;
+}
+
+.medium {
+	width: 100px;
+	height: 100px;
+}
+
+.big {
+	width: 120px;
+	height: 120px;
+}
+
+.cloud {
+	position: absolute;
+}
+
+#landscape {
+	z-index: -1;
+	width: 100%;
+	position: absolute;
+}
+
+
+
+#btn_container {
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 110px;
+	height: 110px;
+
+	z-index: 3;
+	color: #cc4400;
+	position: fixed;
+	cursor: pointer;
+	border-radius: 100%;
+	font: bold 35px Calibri;
+	background-color: #ff7700;
+	box-shadow: -3px 3px 0 1px #cc4400;
+}
+
+#score {
+	left: 10px;
+	bottom: 5px;
+	display: none;
+	position: absolute;
+	font: bold 35px Calibri;
+}
+
+#hearts_instructions {
+	right: 10px;
+	position: absolute;
+	text-align: center;
+	font: bold 15px Calibri;
+}
+
+#hearts_container {
+	right: 10px;
+	bottom: 5px;
+	display: none;
+	text-align: right;
+	position: absolute;
+}
+#hearts_container img {
+	cursor: pointer;
+}
+
+
+
+#game_over_screen {
+	top: 0;
+	left: 0;
+	z-index: 5;
+	width: 100%;
+	height: 100%;
+	display: none;
+	position: absolute;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+#game_over_screen p {
+	font-weight: bold;
+	margin-bottom: 35px;
+	font-family: Calibri;
+}
+
+#msg {font-size: 50px}
+#game_over_score, #rank, #best_score, #best_rank {font-size: 25px}
+
+#continue {
+	color: #cc4400;
+	cursor: pointer;
+	padding: 10px 20px;
+	border-radius: 10px;
+	font: bold 40px Calibri;
+	background-color: #ff7700;
+	box-shadow: -3px 3px 0 1px #cc4400;
+}

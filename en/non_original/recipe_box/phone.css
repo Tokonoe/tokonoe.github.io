@@ -1,0 +1,48 @@
+/* VERTICAL */
+
+@media screen and (max-width: 1100px) and (orientation: portrait) {
+	#main {width: 90%}
+	#add_recipe_menu {width: 55%}
+}
+
+@media screen and (max-width: 800px) and (orientation: portrait) {
+	#main {width: 95%}
+	#add_recipe_menu {width: 75%}
+}
+
+@media screen and (max-width: 500px) and (orientation: portrait) {
+	#main {width: 92.5%}
+	.recipe {width: 90%}
+	#add_recipe_menu {width: 85%}
+	#recipe_data textarea {width: 95%}
+}
+
+/* HORIZONTAL */
+
+@media screen and (max-width: 1100px) and (orientation: landscape) {
+	#main {width: 90%}
+	#add_recipe_menu {width: 60%}
+}
+
+@media screen and (max-width: 900px) and (orientation: landscape) {
+	#add_recipe_menu {width: 75%}
+}
+
+@media screen and (max-width: 800px) and (orientation: landscape) {
+	#main {width: 95%}
+	#add_recipe_menu {width: 90%}
+}
+
+@media screen and (max-width: 600px) and (orientation: landscape) {
+	#add_recipe_menu #title {margin: 10px 0 0 10px}
+	#cross {margin: 10px 10px 0 0}
+
+	#recipe_data {
+		padding: 15px;
+		margin: 10px 0;
+	}
+
+	#add_recipe_menu #ings_label {margin-top: 10px}
+	#add_recipe_menu #ingredients {height: 40px}
+	#close {margin: 0 10px 10px 5px}
+}

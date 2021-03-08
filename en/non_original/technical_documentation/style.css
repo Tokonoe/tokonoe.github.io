@@ -1,0 +1,74 @@
+/* GENERAL */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body, #main {height: 100%}
+h1, p, li, a {font-family: 'Open Sans',Arial,sans-serif}
+p, li, code, #navbar a {color: #4d4e53}
+
+/* SPECIFIC */
+
+/* tag */
+
+h1 {font-weight: normal}
+p {margin: 2% 0 0 2%}
+ul {margin: 2% 0 0 6%}
+li {margin-top: 2%}
+li ul li {list-style-type: disc;}
+
+code {
+	width: 95%;
+	display: block;
+	line-height: 2;
+    	text-align: left;
+ 	white-space: pre;
+     margin: 2% 0 0 3%;
+     border-radius: 5px;
+     padding: 1.5% 0 1.5% 2%;
+     background-color: #f7f7f7;
+}
+
+/* id */
+
+#main {display: flex}
+
+#navbar {
+	width: 22.5%;
+	height: 100%;
+	position: fixed;
+	user-select: none;
+	border-right: 3px solid rgba(0,22,22,0.4);
+}
+#navbar h1 {
+	text-align: center;
+	padding: 4% 0 6% 0;
+}
+
+#navbar h1, #navbar a {border-bottom: 1px solid black}
+
+#navbar a {
+	display: block;
+	padding: 3% 0 3% 10%;
+	text-decoration: none;
+}
+
+#docu {
+	width: 72.5%;
+	font-size: 95%;
+	margin-left: 25%; 
+}
+
+#docu h1 {margin-top: 2%}
+#docu a {padding-bottom: 15%}
+
+#original {
+	right: 8px;
+	bottom: 5px;
+	color: black;
+	position: fixed;
+	font-size: 11px;
+	text-decoration: none;
+}

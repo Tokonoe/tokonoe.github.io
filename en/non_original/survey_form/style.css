@@ -1,0 +1,94 @@
+/* GENERAL */
+
+* {
+	margin: 0;
+	padding: 0;
+	user-select: none;
+	font-family: 'Raleway', Helvetica, sans-serif;
+}
+
+body {
+	background-color: #a9d7d1;
+	justify-content: flex-start;
+}
+
+/* CENTERING */
+
+body, #main, #main #submit_box {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/* SPECIFIC */
+
+h1 {margin: 1% 0}
+
+#main {
+	width: 70%;
+	margin-bottom: 1%;
+	border-radius: 5px;
+	background-color: rgb(250, 250, 250);
+}
+
+#main p {margin: 3% 0}
+
+#main div {
+	display: flex;
+	margin-bottom: 3%;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+#main #name, #main #email, #main #age {align-items: center}
+
+.labels {
+	width: 45%;
+	margin-right: 3%;
+	text-align: right;
+}
+
+#main input[type=text], #main input[type=email], #main input[type=number], #main select, #main textarea {
+	border-radius: 2px;
+	border: 1px solid #c0c0c0;
+}
+
+#main input, #main select, #main option {font-family: Arial}
+
+#main input[type=text], #main input[type=email], #main input[type=number] {
+	width: 40%;
+	padding: 1% 0.5%;
+}
+
+#main select {
+	width: 20%;
+	padding: 1% 0.5%;
+}
+
+#main dt {margin-bottom: 5%}
+
+#main textarea {
+	width: 40%;
+	resize: vertical;
+	font-family: monospace;
+	padding: 0.5% 0 5% 0.5%;
+}
+
+#main #submit {
+	color: white;
+	border: none;
+	font-size: 100%;
+	padding: 1.5% 3%;
+	border-radius: 3px;
+	background-color: #59ace0;
+}
+
+#original {
+	right: 8px;
+	bottom: 5px;
+	color: black;
+	position: fixed;
+	font-size: 12px;
+	text-decoration: none;
+}

@@ -1,0 +1,166 @@
+* {
+	margin: 0;
+	padding: 0;
+	user-select: none;
+	font-weight: normal;
+	font-family: Open Sans, sans-serif;
+}
+
+html, body {height: 100%}
+
+#about_anchor {
+	top: 0;
+	position: absolute;
+}
+
+/* SECTION CENTERING */
+
+nav, #about, #work, #contact {
+	display: flex;
+	align-items: center;
+}
+
+#about, #work, #contact {justify-content: center}
+#work, #contact {flex-direction: column}
+
+	/* NAV */
+
+nav {
+	top: 0;
+	width: 100%;
+	height: 10%;
+	position: fixed;
+	justify-content: flex-end;
+	background-color: #e0ebe8;
+}
+
+nav a {
+	color: #008080;
+	margin-right: 5%;
+	text-decoration: none;
+}
+
+nav a:hover {color: green}
+
+	/* ABOUT */
+
+#about {
+	height: 90%;
+	margin-top: 4.9%;
+	background-color: #e0ebe8;
+}
+
+#about h1 {font-weight: bold}
+
+#about p {
+	color: green;
+	font-size: 50%;
+	text-align: center;
+}
+
+	/* WORK */
+
+#work h1 {
+	color: #008080;
+	font-size: 150%;
+	margin: 3% 0 2% 0;
+}
+
+#work div {
+	width: 100%;
+	text-align: center;
+}
+
+#work div div {
+	width: 21%;
+	margin: 1% 7% 5% 7%;
+	display: inline-block;
+}
+
+#work a {text-decoration: none}
+#work div img, #work p {border: 2px solid lightblue}
+
+#work img {
+	width: 100%;
+	height: 11em;
+	display: block;
+}
+
+#work p {
+	width: 100%;
+	padding: 3% 0;
+	color: #008080;
+	border-top: none;
+	font-weight: bold;
+}
+
+#work #showAll {
+	color: #008080;
+	padding: .5% 5%;
+   	font-weight: bold;
+   	border-radius: 5px;
+   	background: #e0ebe8;
+   	border: 2px solid #90C695;
+}
+
+#work #showAll:hover {
+   	color: green;
+   	background-color: #E4F1FE;
+}
+
+	/* CONTACT */
+
+#contact {
+	margin-top: 4%;
+	text-align: center;
+	background-color: #C8F7C5;
+}
+
+#contact h1 {
+	margin-top: 10%;
+	font-weight: bold;
+}
+
+#contact p {margin-bottom: 7%}
+#contact dl {width: 100%}
+#contact dt {display: inline}
+
+#contact a {
+	width: 6em;
+	height: 6em;
+	color: #008080;
+	line-height: 6em;
+	font-weight: bold;
+	margin: 0 3% 10% 3%;
+	border-radius: 100%;
+   	background: #e0ebe8;
+     text-decoration: none;
+     display: inline-block;
+     border: 2px solid #90C695;
+}
+
+#contact a:hover {
+   	color: green;
+   	background: #E4F1FE;
+}
+
+	/* FOOTER */
+
+footer {
+	color: white;
+	text-align: center;
+	background-color: #22313F;
+}
+
+footer #footer_1 {padding: 2% 0}
+footer #footer_2 {padding-bottom: 2%}
+footer a {color: white}
+
+#original {
+	right: 10px;
+	bottom: 5px;
+	color: black;
+	position: fixed;
+	font-size: 12px;
+	text-decoration: none;
+}

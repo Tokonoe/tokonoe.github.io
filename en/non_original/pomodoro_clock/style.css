@@ -1,0 +1,108 @@
+/* FONTS */
+
+@import "https://fonts.googleapis.com/css?family=Share+Tech+Mono|Righteous";
+@font-face {
+	font-family: digital;
+	src: url('digital-7-mono.ttf');
+}
+
+/* GENERAL */
+
+* {
+	margin: 0;
+	padding: 0;
+	user-select: none;
+}
+
+html, body {height: 100%}
+
+body, #length_ctrl, #break_ctrl, #session_ctrl {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	text-align: center;
+	font-family: 'Righteous';
+	background-color: #1E555C;
+}
+
+#title, #length_ctrl, #ctrl, i {color: white}
+#length_ctrl, #break_ctrl, #session_ctrl {flex-direction: row}
+#break_title, #session_title, #break_display, #session_display, #time_title {font-size: 30px}
+
+button {
+	border: none;
+	outline: none;
+	cursor: pointer;
+	background-color: transparent;
+}
+
+/* SPECIFIC */
+
+#title {font-size: 50px}
+#length_ctrl {margin: 20px 0}
+#break {margin-right: 50px}
+#break_display, #session_display {margin: 0 10px}
+
+#time {
+	padding: 20px 50px;
+	border-radius: 50px;
+	display: inline-block;
+	border: 7px solid #13353a;
+}
+
+#display {
+	font-size: 75px;
+	font-family: digital;
+}
+
+#ctrl {margin: 15px 0}
+#power {margin-right: 10px}
+#pause {display: none}
+
+#author {
+	color: #a50d0d;
+	font-size: 14px;
+	line-height: 20px;
+	font-family: Share Tech Mono, sans;
+}
+
+#author a {
+	color: #00264d;
+	text-decoration: none;
+}
+
+#original {
+	right: 10px;
+	bottom: 5px;
+	color: white;
+	position: fixed;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+/* RESPONSIVE */
+
+	/* VERTICAL */
+
+@media screen and (max-width: 500px) and (orientation: portrait) {
+	#length_ctrl {flex-direction: column}
+	#break {margin: 0}
+}
+
+@media screen and (max-width: 400px) and (orientation: portrait) {
+	#title {font-size: 40px}
+}
+
+@media screen and (max-width: 350px) and (orientation: portrait) {
+	#title {font-size: 35px}
+	#display {font-size: 65px}
+}
+
+	/* HORIZONTAL */
+
+@media screen and (max-width: 900px) and (orientation: landscape) {
+	body {display: block}
+	#title {margin-top: 25px}
+	#author {margin-bottom: 25px}
+}

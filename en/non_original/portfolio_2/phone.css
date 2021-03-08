@@ -1,0 +1,111 @@
+@media only screen and (max-width: 1100px) and (orientation: portrait) {
+	nav {height: 5%}
+	nav a {margin-right: 10%}
+	#about {height: 100%}
+	#work h1 {margin: 4% 0 2% 0}
+
+	#work div div {
+		width: 27%;
+		margin: 2% 9% 6% 9%;
+	}
+
+	#contact {margin-top: 5%}
+}
+
+@media only screen and (max-width: 800px) and (orientation: portrait) {
+	#work div {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#work div div {
+		display: block;
+		margin: 2% 0 8% 0;
+		width: 35%;
+	}
+
+	#work #showAll {padding: 1% 10%}
+	#contact {margin-top: 8%}
+	footer #footer_1 {padding: 3% 0}
+	footer #footer_2 {padding-bottom: 3%}
+}
+
+@media only screen and (max-width: 500px) and (orientation: portrait) {
+	nav {
+		height: 10%;
+		justify-content: center;
+	}
+
+	nav a {margin: 5%}
+	#work h1 {margin: 10% 0 10% 0}
+
+	#work div div {
+		width: 70%;
+		margin-bottom: 15%;
+	}
+
+	#work #showAll {padding: 2% 15%}
+	#contact {margin-top: 15%}
+	#contact h1 {margin-top: 15%}
+	#contact p {margin-bottom: 10%}
+	#contact a {margin-bottom: 5%}
+	#contact dl {margin-bottom: 10%}
+	footer #footer_1 {padding: 7% 0}
+	footer #footer_2 {padding-bottom: 7%}
+}
+
+@media only screen and (max-width: 350px) and (orientation: portrait) {
+	#work h1 {font-size: 120%}
+	#work div div {width: 80%}
+	#contact h1 {font-size: 160%}
+	footer #footer_1 {font-size: 95%}
+}
+
+@media only screen and (max-width: 1100px) and (orientation: landscape) {
+	#about {height: 100%}
+
+	#work div div {
+		width: 27%;
+		margin: 2% 9% 6% 9%;
+	}
+
+	#work #showAll {padding: 1% 10%}
+	#contact {margin-top: 5%}
+	footer #footer_1 {padding: 3% 0}
+	footer #footer_2 {padding-bottom: 3%}
+}
+
+@media only screen and (max-width: 850px) and (orientation: landscape) {
+	nav {height: 15%}
+	nav a {margin-right: 10%}
+
+	#work div {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#work div div {
+		display: block;
+		margin: 2% 0 8% 0;
+		width: 35%;
+	}
+
+	#contact {margin-top: 8%}
+}
+
+@media only screen and (max-width: 800px) and (orientation: landscape) {
+	#work div div {width: 40%}
+	#contact a {margin: 0 2% 10% 2%}
+}
+
+@media only screen and (max-width: 650px) and (orientation: landscape) {
+	#work div div {width: 45%}
+	#contact a {margin: 0 1% 10% 1%}
+}
+
+@media only screen and (max-width: 600px) and (orientation: landscape) {
+	#work div div {width: 50%}
+	#contact a {margin: 0 4% 10% 4%}
+}

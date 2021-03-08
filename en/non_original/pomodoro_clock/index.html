@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Pomodoro Clock</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="icon" href="icon.png">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script type="text/javascript" src="script.js" defer></script>
+	</head>
+
+	<body>
+		<div id="main">
+
+			<!-- TITLE -->
+			<p id="title">Pomodoro Clock</p>
+
+
+			<!-- INCREASE/DECREASE BUTTONS -->
+			<div id="length_ctrl">
+
+				<!-- break buttons -->
+				<div id="break">
+					<p id="break_title">Break Length</p>
+					<div id="break_ctrl">
+						<button id="break_down"><i class="fa fa-arrow-down fa-2x"></i></button>
+						<p id="break_display">5</p>
+						<button id="break_up"><i class="fa fa-arrow-up fa-2x"></i></button>
+					</div>
+				</div>
+
+				<!-- session buttons -->
+				<div id="session">
+					<p id="session_title">Session Length</p>
+					<div id="session_ctrl">
+						<button id="session_down"><i class="fa fa-arrow-down fa-2x"></i></button>
+						<p id="session_display">25</p>
+						<button id="session_up"><i class="fa fa-arrow-up fa-2x"></i></button>
+					</div>
+				</div>
+
+			</div>
+
+
+			<!-- TIMER -->
+			<div id="time">
+				<p id="time_title">Session</p>
+				<div id="display">25:00</div>
+			</div>
+
+
+			<!-- ON/OFF & RESET BUTTONS -->
+			<div id="ctrl">
+				<button id="power">
+					<i id="play" class="fa fa-play fa-2x"></i>
+					<i id="pause" class="fa fa-pause fa-2x"></i>
+				</button>
+				<button id="reset"><i class="fa fa-refresh fa-2x"></i></button>
+			</div>
+
+
+			<!-- AUTHOR -->
+			<p id="author">Designed by<br><a href="https://goo.gl/6NNLMG" target="#">Peter Weinberg</a></p>
+
+			<a href="https://codepen.io/freeCodeCamp/full/XpKrrW" target="#" id="original">Original</a>
+
+		</div>
+	</body>
+</html>

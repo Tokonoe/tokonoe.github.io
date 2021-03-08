@@ -1,0 +1,142 @@
+* {
+	margin: 0;
+	padding: 0;
+	user-select: none;
+	font-family: 'Lato', sans-serif;
+}
+
+/* POSITION */
+
+#main, form, #features div, #pricing, #nav {display: flex}
+#main, form, #features div div {flex-direction: column}
+#main, form, #features div {align-items: center}
+#features div div {align-items: flex-start}
+#features div {flex-direction: row}
+footer {text-align: right}
+
+#pricing {
+	text-align: center;
+	justify-content: center;
+}
+
+/* GENERAL */
+
+body {background-color: #eee}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+/* NAV */
+
+#nav {
+	top: 0;
+	padding: 20px 0;
+	position: fixed;
+	align-items: center;
+	background-color: #eee;
+}
+
+#nav img {
+	width: 22.5%;
+	margin: 0 30% 0 5%;
+}
+
+#nav div {width: 50%}
+#nav a {margin-left: 15%}
+
+/* MAIN */
+
+#main {margin-top: 6%}
+
+/* FORM */
+
+form h1 {font-size: 140%}
+
+form input[type=email] {
+	width: 65%;
+	padding: 1%;
+	margin: 5% 0;
+}
+
+form input[type=submit] {
+	border: none;
+	padding: 1% 3%;
+	cursor: pointer;
+	font-size: 110%;
+	font-weight: bold;
+	background-color: #f1c40f;
+}
+
+input[type=submit]:hover, #pricing a:hover {
+    transition: 1s;
+    background-color: orange;
+}
+
+/* FEATURES */
+
+#features {width: 65%;}
+#features, #features-middle {margin: 5% 0}
+
+.icon {
+	width: 12.5%;
+	color: darkorange;
+}
+
+.good-icon {margin-right: 15px}
+#features h1 {font-size: 150%}
+
+/* PRICING */
+
+#pricing {
+	width: 100%;
+	margin: 5% 0;
+}
+
+#pricing div {
+	width: 22.5%;
+	border: 1px solid black;
+}
+
+#pricing-middle {margin: 0 1.5%}
+
+#pricing h1 {
+	padding: 5% 0;
+	font-size: 100%;
+	background-color: #ddd;
+}
+
+#pricing h2 {padding: 5% 0}
+#pricing p {padding: 2% 0}
+#pricing .link {margin: 5% 0}
+
+#pricing a {
+	padding: 2.5% 6% 3% 6%;
+	background-color: #f1c40f;
+}
+
+/* FOOTER */
+
+footer {
+	width: 75%;
+	background-color: #ddd;
+}
+
+footer div {padding: 2.5%}
+footer nav {margin-bottom: 1%}
+footer a {margin-right: 2%}
+
+footer p {
+	color: #444;
+	font-size: 90%;
+}
+
+#original {
+	right: 8px;
+	bottom: 5px;
+	color: black;
+	position: fixed;
+	font-size: 12px;
+	text-decoration: none;
+}

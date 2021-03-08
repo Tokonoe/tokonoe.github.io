@@ -1,0 +1,174 @@
+/* GENERAL */
+
+* {
+	margin: 0;
+	padding: 0;
+	user-select: none;
+	-webkit-user-drag: none;
+}
+
+html, body {
+	height: 100% !important;
+	overflow: hidden !important;
+}
+
+body {
+	background-color: black;
+}
+
+p {
+	color: white;
+	font-weight: bold;
+	font-family: Inter;
+}
+
+/* SPECIFIC */
+
+#topLeft, #bottomLeft, #topRight, #bottomRight {position: absolute}
+#topLeft, #bottomLeft {left: 15px}
+#topRight, #bottomRight {right: 15px}
+
+#topLeft {
+	top: 15px;
+	font-size: 28px;
+	line-height: 40px;
+}
+
+#bottomLeft {
+	bottom: 15px;
+	font-size: 25px;
+}
+
+#topRight {
+	top: 5px;
+	font-size: 110px;
+}
+
+#bottomRight {
+	bottom: 5px;
+	font-size: 70px;
+}
+
+
+
+#animation {
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#sun {
+	z-index: -2;
+	border-radius: 100%;
+	background: linear-gradient(#FFF500,#E60098);
+}
+
+@keyframes breathing{
+	0% {transform: scale(1)}
+	19.04% {transform: scale(1.8)}
+	53% {transform: scale(1.8)}
+	100% {transform: scale(1)}
+}
+
+.animate {
+	animation-duration: 19s;
+	animation-name: breathing;
+	animation-iteration-count: 4;
+	animation-fill-mode: forwards;
+	animation-timing-function: ease-in-out;
+}
+
+img {
+	top: 50%;
+	bottom: 0;
+	z-index: -1;
+	width: 100%;
+	position: absolute;
+}
+
+#sun_hitbox {
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	position: absolute;
+	border-radius: 100%;
+}
+
+#congrats, #credits {
+	top: 100%;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: black;
+	transition: top 488ms ease-in-out;
+}
+
+#congrats, #credits {
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.close {
+	top: 15px;
+	right: 15px;
+	cursor: pointer;
+}
+
+#congrats_text {
+	margin: 0 15px;
+	font-size: 50px;
+}
+
+
+
+#credits p {font-weight: normal}
+
+#credits #title, #credits #subtitle, #credits #text {
+	margin: 0 15px;
+	font-size: 18px;
+} 
+
+#credits #title {
+	font-size: 50px;
+	font-weight: bold;
+}
+
+#credits #text {line-height: 25px}
+
+.absolute {
+	font-size: 18px;
+	position: absolute;
+}
+
+.grey {
+	opacity: .6;
+	font-size: 14px;
+}
+
+#credits a {color: white}
+
+
+
+#original {
+	top: 5px;
+	right: 5px;
+	position: fixed;
+	font-size: .8rem;
+}
+
+#original a {
+	color: white;
+	text-decoration: none;
+}
+
+/* RESPONSIVE */
+
+@media screen and (orientation: portrait) and (max-width: 400px) {#congrats_text {font-size: 40px}}
+@media screen and (orientation: portrait) and (max-width: 350px) {#congrats_text {font-size: 30px}}

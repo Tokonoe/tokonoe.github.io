@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Chore Door</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="phone.css">
+		<link rel="icon" href="pictures/icon.png">
+		<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="script_33pct.js" defer></script>
+	</head>
+
+	<body>
+		<!-- HEADER -->
+		<header>
+			<img src="pictures/logo.png">
+		</header>
+
+		<!-- TITLE -->
+		<div class="inline" id="title_box">
+			<p id="title">Instructions</p>
+		</div>
+
+		<!-- INSTRUCTIONS -->
+		<ol>
+			<li><span id="span_1">1</span>Hiding behind one of these doors is the ChoreBot.</li>
+			<li><span>2</span>Your mission is to open all of the doors without running into the ChoreBot.</li>
+			<li><span>3</span>If you manage to avoid the ChoreBot until the very last door, you win!</li>
+			<li><span>4</span>See if you can score a winning streak!</li>
+		</ol>
+
+		<!-- DOORS -->
+		<div class="inline">
+			<img src="pictures/closed_door.png" class="door" id="door_1">
+			<img src="pictures/closed_door.png" class="door" id="door_2">
+			<img src="pictures/closed_door.png" class="door" id="door_3">
+		</div>
+
+		<!-- BUTTON -->
+		<div id='btn'>Good luck!</div>
+
+		<!-- STREAKS -->
+		<div id="streaks">
+			<div>
+				<p>Current streak:</p>
+				<div id="current_streak_display">0</div>
+			</div>
+			<div>
+				<p>Best streak:</p>
+				<div id="best_streak_display">0</div>
+			</div>
+		</div>
+
+		<a href="https://www.codecademy.com/learn/build-interactive-websites" target="#" id="credits">Credits</a>
+
+	</body>
+</html>

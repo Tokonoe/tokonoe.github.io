@@ -1,0 +1,50 @@
+* {
+	margin: 0;
+	padding: 0;
+	user-select: none;
+}
+
+html, body {height: 100%}
+
+body, #password_box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+body {
+	flex-direction: column;
+	background-color: #eee;
+}
+
+/* SPECIFIC */
+
+#password_box * {display: inline}
+
+#password {
+	width: 50%;
+	padding: 0 1%;
+	outline: none;
+	color: #141414;
+	font-size: 200%;
+	border-radius: 2px;
+	background-color: #eee;
+	border: 2px solid #333;
+}
+
+#visibility {
+	height: 65px;
+	width: 65px;
+	margin-left: 2%;
+	cursor: pointer;
+}
+
+#validation {
+	margin-top: 5%;
+	font-weight: bold;
+	font-family: Arial;
+
+	/* mobile */
+	width: 90%;
+	text-align: center;
+}

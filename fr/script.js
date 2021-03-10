@@ -248,4 +248,4 @@ elements.responsive_original_btn.onclick = function() {
 
 elements.responsive_contact_btn.onclick = function() {window.scroll(0, document.body.scrollHeight)}
 
-document.getElementsByClassName('project')[0].getElementsByTagName('a')[0].setAttribute('href', '/fr/non_original/kimha/en');
+setTimeout(function(){document.getElementsByClassName('project')[0].getElementsByTagName('a')[0].setAttribute('href', '/fr/non_original/kimha/en')},100)

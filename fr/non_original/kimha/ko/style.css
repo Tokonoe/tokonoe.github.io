@@ -2,7 +2,7 @@
 
 @font-face {
 	font-family: StyreneA;
-	src: url(/en/non_original_projects/kimha/ko/StyreneA-Light-Web.woff);
+	src: url(/en/non_original/kimha/ko/StyreneA-Light-Web.woff);
 }
 
 * {
@@ -75,7 +75,7 @@ nav ul li {display: inline}
 	position: absolute;
 	background-size: cover;
 	background-position: top;
-	background-image: url('/en/non_original_projects/kimha/ko/pictures/home-thumbnail.jpg');
+	background-image: url('/en/non_original/kimha/ko/pictures/home-thumbnail.jpg');
 }
 
 #main-body p {
